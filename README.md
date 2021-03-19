@@ -181,6 +181,8 @@ The removal of duplicates without manual effort makes preprocessing faster. A hi
 We propose a set of guidelines to be followed to resolve such conflicts. 
 > * The below flowchart is an abstract representation of the conflict resolution process proposed by us.
 
+![](https://github.com/vinaykashyap1996/MSR-Assignment-3/blob/master/Data/Doc/Conflict_Resolution.png)
+
 
 Let there be a question where both authors have to manually analyse. A conflict occurs when the reproducibilty status classified by both authors are different.
 We have set a list of guidelines to resolve the conflicts. Consider a scenario where author 1 classified the status as reproducible and the author 2 classified the same issue as irreproducible. Then author 2 has to follow the below guidelines.
@@ -194,9 +196,8 @@ Following the guidelines would make the decision making process faster. The conf
 
 # Results
 1. The elimination of duplicates is performed in a faster way as there is no manual effort. The questions in the preprocessed dataset have a score greater than or equal to zero indicating better quality of questions selected for analysis.
-```
-CSV to be added
-```
+[Link to CSV file](https://github.com/vinaykashyap1996/MSR-Assignment-3/blob/master/Data/Input/preprocessed_dataset.csv)
+
 2. There is a significant reduction in time taken to resolve a conflict by overturning a decision made by an author. The reasoning included during the classification of a question as irreproducible makes it more clear and understandable.
 
 
@@ -222,16 +223,16 @@ answerCount int
 Note 
 - Change the schemaname.tablename as and how you have used when creating the same.
 ```
-> * Open and run the updated SQL file with modified queries. [Data Preprocessing]()
+> * Open and run the updated SQL file with modified queries. [Data Preprocessing](https://github.com/vinaykashyap1996/MSR-Assignment-3/blob/master/Process/Data_Preprocessing.sql)
 ```
 Note : The preprocessed dataset will now be present in the location as in the query.
 ```
 
 # Data
 1. Input data:
-> * Preprocessed dataset - The dataset obtained by using the new SQL file. [Preprocessed dataset]()
+> * Preprocessed dataset - The dataset obtained by using the new SQL file. [Preprocessed dataset](https://github.com/vinaykashyap1996/MSR-Assignment-3/blob/master/Data/Input/preprocessed_dataset.csv)
 
-Updated Doc file can be found in this link. [doc file]()
+Updated Doc file can be found in this link. [doc file](https://github.com/vinaykashyap1996/MSR-Assignment-3/tree/master/Data/Doc)
 
 
 
